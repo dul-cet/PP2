@@ -1,33 +1,176 @@
 x = 5
 print(type(x))
 
-x = "Hello World"	#str	
-x = 20	#int	
-x = 20.5	#float	
-x = 1j	#complex	
-x = ["apple", "banana", "cherry"]	#list	
-x = ("apple", "banana", "cherry")	#tuple	
-x = range(6)	#range	
-x = {"name" : "John", "age" : 36}	#dict	
-x = {"apple", "banana", "cherry"}	#set	
-x = frozenset({"apple", "banana", "cherry"})	#frozenset	
-x = True	#bool	
-x = b"Hello"	#bytes	
-x = bytearray(5)	#bytearray	
-x = memoryview(bytes(5))	#memoryview	
-x = None	#NoneType
+x = "Hello World"	#str
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
 
-x = str("Hello World")	#str	
-x = int(20)	#int	
-x = float(20.5)	#float	
-x = complex(1j)	#complex	
-x = list(("apple", "banana", "cherry"))	#list	
-x = tuple(("apple", "banana", "cherry"))	#tuple	
+x = 20	#int	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x))
+
+x = 20.5	#float	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = 1j	#complex	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = ["apple", "banana", "cherry"]	#list	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = ("apple", "banana", "cherry")	#tuple	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
 x = range(6)	#range	
-x = dict(name="John", age=36)	#dict	
-x = set(("apple", "banana", "cherry"))	#set	
-x = frozenset(("apple", "banana", "cherry"))	#frozenset	
-x = bool(5)	#bool	
-x = bytes(5)	#bytes	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = {"name" : "John", "age" : 36}	#dict	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = {"apple", "banana", "cherry"}	#set	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = frozenset({"apple", "banana", "cherry"})	#frozenset	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = True	#bool	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = b"Hello"	#bytes	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
 x = bytearray(5)	#bytearray	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = memoryview(bytes(5))	#memoryview	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = None	#NoneType
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = str("Hello World")	#str
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = int(20)	#int	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = float(20.5)	#float	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = complex(1j)	#complex	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = list(("apple", "banana", "cherry"))	#list	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = tuple(("apple", "banana", "cherry"))	#tuple	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = range(6)	#range	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = dict(name="John", age=36)	#dict	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = set(("apple", "banana", "cherry"))	#set	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = frozenset(("apple", "banana", "cherry"))	#frozenset	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = bool(5)	#bool	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = bytes(5)	#bytes	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
+x = bytearray(5)	#bytearray	
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
+
 x = memoryview(bytes(5))	#memoryview
+#display x:
+print(x)
+#display the data type of x:
+print(type(x)) 
