@@ -10,13 +10,9 @@ def solve(numheads, numlegs):
         total_legs = 2 * num_chickens + 4 * num_rabbits
         if total_legs == numlegs:
             return num_chickens, num_rabbits
-    return None
 
 numheads = 35
 numlegs = 94
 result = solve(numheads, numlegs)
-if result:
-    chickens, rabbits = result
-    print(result)
-else:
-    print("No solution found.")
+chickens, rabbits = result
+print("Rabbits =", rabbits,"and","Chickens =", chickens)
