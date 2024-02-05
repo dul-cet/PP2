@@ -1,5 +1,6 @@
 """
-5. Write a function that accepts string from user and print all permutations of that string."""
+5. Write a function that accepts string from user and print all permutations of that string.
+"""
 
 from itertools import permutations
 
