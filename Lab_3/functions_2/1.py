@@ -4,8 +4,14 @@
 
 from Dictionary_of_movies import movies
 
-def is_above_5_5(movie):
-    return movie["imdb"] > 5.5
+def is_movie_above_5_5(name):
+    for movie in movies:
+        if movie["name"] == name:
+            return movie["imdb"] > 5.5
+    return False
 
-movies_above_5_5 = [movie for movie in movies if is_above_5_5(movie)]
-print(f"Movies with IMDB rating above 5.5: {[movie['name'] for movie in movies_above_5_5]}")
+name = input()
+if is_movie_above_5_5(name):
+    print("True")
+else:
+    print("False")
