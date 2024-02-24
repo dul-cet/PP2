@@ -7,7 +7,7 @@ print("=========================================================================
 print("DN                                                 Description           Speed    MTU  ")
 print("-------------------------------------------------- --------------------  ------  ------")
 
-with open("sample-data.json", "r") as js_file:
+with open(r"C:\Users\Moldir\VSCodeProjects\githowto\repositories\Lab_4\json\sample-data.json", "r") as js_file:
     j = json.load(js_file)
 for x in j["imdata"]:
     print(f"{x["l1PhysIf"]["attributes"]["dn"]}  {x["l1PhysIf"]["attributes"]["speed"]}   {x["l1PhysIf"]["attributes"]["mtu"]}")
