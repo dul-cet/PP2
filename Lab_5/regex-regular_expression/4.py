@@ -2,10 +2,10 @@
 
 import re
 
-str = re.compile(r'[A-Z][a-z]+')
+str1 = re.compile(r'[A-Z][a-z]+')
 
 def find_sequences(text):
-    return str.findall(text)
+    return str1.findall(text)
 
 print(find_sequences("Music is perfect"))  
 # ['Music']
