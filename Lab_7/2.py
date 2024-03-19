@@ -2,7 +2,7 @@
 # play, stop, next and previous as some keys.
 # Player has to react to the given command appropriately.
 # control the music player using the spacebar to play or pause,
-#  and "n" and "p" keys to go to the next or previous track
+# and "n" and "p" keys to go to the next or previous track
 
 import pygame
 import os
