@@ -32,7 +32,7 @@ game_score_rect = game_score_text.get_rect()
 game_score_rect.center = (210, 20)
 
 #Catching sound
-collision_sound = pygame.mixer.Sound('audio/catch.mp3')
+collision_sound = pygame.mixer.Sound(r'C:\Users\Moldir\VSCodeProjects\githowto\repositories\Lab_9\catch.mp3')
 
 def detect_collision(dx, dy, ball, rect):
     if dx > 0:
@@ -59,7 +59,7 @@ block_list = [pygame.Rect(10 + 120 * i, 50 + 70 * j,
 color_list = [(random.randrange(0, 255), 
     random.randrange(0, 255),  random.randrange(0, 255))
               for i in range(10) for j in range(4)] 
-print(block_list)
+#print(block_list)
 #Game over Screen
 losefont = pygame.font.SysFont('comicsansms', 40)
 losetext = losefont.render('Game Over', True, (255, 255, 255))
